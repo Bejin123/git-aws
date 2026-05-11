@@ -12,8 +12,8 @@ provider "aws" {
 }
 
 resource "aws_instance" "MyFirstInstance" {
-  ami           = "ami-0f58b397bc5c1f2e8"
-  instance_type = "t4g.small"
+  ami           = "ami-0d8392dc49e922452"
+  instance_type = "t2.micro"
 
   subnet_id = "subnet-0dbad8f3a38b99346"
 
